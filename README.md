@@ -17,7 +17,8 @@ If you let the UIStackView scroll, it's even better. This demo is a layout writt
         make.trailing.equalTo(_horizontalScrollView);
         make.height.equalTo(_horizontalScrollView);
         make.width.mas_equalTo(ScreenWidth * 2);
-}];```
+}];
+```
 
 #### 注意点:
 #### 注意这里设置的约束，最后一个宽度的约束很关键
