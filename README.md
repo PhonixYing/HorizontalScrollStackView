@@ -7,7 +7,8 @@ UIStackView is a very useful control introduced by iOS9. It can be better if it 
 If you let the UIStackView scroll, it's even better. This demo is a layout written in Masonry code.
 
 
-发现最关键的设置UIStackView的约束，核心代码如下：
+#### 发现最关键的设置UIStackView的约束，核心代码如下：
+
 <br>`[stackView mas_makeConstraints:^(MASConstraintMaker *make) {
 
         make.top.equalTo(_horizontalScrollView);
