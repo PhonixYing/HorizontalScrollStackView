@@ -10,19 +10,12 @@ If you let the UIStackView scroll, it's even better. This demo is a layout writt
 #### 发现最关键的设置UIStackView的约束，核心代码如下：
 
 <br>`[stackView mas_makeConstraints:^(MASConstraintMaker *make) {
-
         make.top.equalTo(_horizontalScrollView);
-        
         make.bottom.equalTo(_horizontalScrollView);
-        
         make.leading.equalTo(_horizontalScrollView);
-        
         make.trailing.equalTo(_horizontalScrollView);
-        
         make.height.equalTo(_horizontalScrollView);
-        
         make.width.mas_equalTo(ScreenWidth * 2);
-        
     }];`
 
 #### 注意点:
